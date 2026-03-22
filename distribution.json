@@ -1,0 +1,1058 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "bahpack-1.20.1",
+      "name": "bahpack (Minecraft 1.20.1)",
+      "description": "bahpack Running Minecraft 1.20.1 (Forge v47.4.18)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.18",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7395,
+            "MD5": "d9147f2a7e0fb2216a846f4d5cf4c5c5",
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.18/lowcodelanguage-1.20.1-47.4.18.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.18",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16629,
+                "MD5": "70fe69d4eccce5bb1c380c8fd1691aed",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/versions/1.20.1-forge-47.4.18/1.20.1-forge-47.4.18.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.18",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118909,
+                "MD5": "bda6dab28bf3b075b888d8e131385c13",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.18/fmlcore-1.20.1-47.4.18.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.18",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16851,
+                "MD5": "45ded69363c7b964b31937455759984a",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.18/javafmllanguage-1.20.1-47.4.18.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.18",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4995,
+                "MD5": "c9069482062cbe2f59658e9d18f5442d",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.18/mclanguage-1.20.1-47.4.18.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.18:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2507779,
+                "MD5": "79b2278f66cdb5bade5d87595218fc7d",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.18/forge-1.20.1-47.4.18-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.18:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4848917,
+                "MD5": "a653895344f94e59c864480cda1031d1",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.18/forge-1.20.1-47.4.18-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126252,
+                "MD5": "1888ad1f49038441bb2d12aa6dffe396",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 75010,
+                "MD5": "7e0ef716c43d92d29e666f820df24e2c",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51963,
+                "MD5": "7eb17cd0d09b03fbe473e51edfc6e4d2",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94643,
+                "MD5": "fd4d359daf227302ab9cefd36476ca72",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35170,
+                "MD5": "68bd4a0266ad181cfca3f1603401ca68",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.2.33",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 64014,
+                "MD5": "0b419ea48f46de30ee4e6241e4fdf9d4",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/eventbus/6.2.33/eventbus-6.2.33.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.18",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 269391,
+                "MD5": "2946d758615b111e7591dbe1e255f6e3",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.18/fmlloader-1.20.1-47.4.18.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.18",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170513,
+                "MD5": "17e3fd3a9544b2b98fa5964d0e0a06e9",
+                "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.18/fmlearlydisplay-1.20.1-47.4.18.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.mcreator:aerlunerpg:1.0.0@jar",
+          "name": "AerLuneRPG",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52910448,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/aerlunerpg-1.0.3.jar",
+            "MD5": "224bcb2a48aaf4e5f8a81d8e5ff5a302"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:alexsmobs:1.22.9@jar",
+          "name": "Alex's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26350793,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/alexsmobs-1.22.9.jar",
+            "MD5": "504050d1f2e2c3019b6f53377ca354c6"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47428,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "MD5": "dae63cea9c951dda542a4005ceef3953"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "com.sofodev:armorplus:1.20.1-20.0.2@jar",
+          "name": "ArmorPlus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2132928,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/armorplus-1.20.1-20.0.2.jar",
+            "MD5": "13e6c876cd704d54fdddea696162f38b"
+          }
+        },
+        {
+          "id": "net.mcreator.atomicworkshop:atomic_workshop:0.7@jar",
+          "name": "Atomic Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7606263,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/atomic_workshop-0.7%20Test-forge-1.20.1.jar",
+            "MD5": "a3e1b4ca9034400e4fe0a3fa957cc160"
+          }
+        },
+        {
+          "id": "mod.azure:azurelib:3.1.3@jar",
+          "name": "AzureLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1054548,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/azurelib-neo-1.20.1-3.1.3.jar",
+            "MD5": "c500cb2d7e6791abfa9be3e5ae55b111"
+          }
+        },
+        {
+          "id": "net.mcreator.blammeyarmory:blammey_armory:1.0.7@jar",
+          "name": "Blammey Armory",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1612966,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/BAA-0.7-forge-1.20.1.jar",
+            "MD5": "13db52cd66b88a74743cc289edf0a7ba"
+          }
+        },
+        {
+          "id": "com.blocks_bahcraft:bahblocks:1.0.0@jar",
+          "name": "Bah Blocks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1497718,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/bahblocks-1.0.0.jar",
+            "MD5": "4c8a9a935c71caa6d7009a00f3661ad4"
+          }
+        },
+        {
+          "id": "com.enzogl:bahletters:0.1.0@jar",
+          "name": "Bah Letters",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 364959,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/bahletters-0.1.0.jar",
+            "MD5": "b05a17b8e75489b4b5353c023da27064"
+          }
+        },
+        {
+          "id": "ballistix:ballistix:1.20.1-1.0.1-0@jar",
+          "name": "Ballistix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9833099,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/Ballistix-1.20.1-1.0.1-0.jar",
+            "MD5": "e00bae1a51d4112bf2b79acb614a1c4a"
+          }
+        },
+        {
+          "id": "net.blockomorph:blockomorph:1.0.10@jar",
+          "name": "Block'oMorph",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 618699,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/blockomorph-1.20.1-forge-1.0.10.jar",
+            "MD5": "142287c8d6579e87c797473d31a6b311"
+          }
+        },
+        {
+          "id": "net.mcreator:brasilcoisas:2.0.0@jar",
+          "name": "Brasil e Coisas",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3221864,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/BrazilThings-2.0.0.jar",
+            "MD5": "d5bbff1b59f4a14189aa777f664e8300"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.6.3@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3185275,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/citadel-2.6.3-1.20.1.jar",
+            "MD5": "da80c09b998d829b6d580e5be76dcc7b"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:12.0.2@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 115280,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/Controlling-forge-1.20.1-12.0.2.jar",
+            "MD5": "952274bc9994bba9733e8747558f73fa"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 398066,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/curios-forge-5.14.1+1.20.1.jar",
+            "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
+          }
+        },
+        {
+          "id": "generated.forgemod:essential_1:3-10-4_forge_1-20-1@jar",
+          "name": "Essential_1",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 54680782,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/Essential_1-3-10-4_forge_1-20-1.jar",
+            "MD5": "4ad199004f51d22950e68c5bc0425f93"
+          }
+        },
+        {
+          "id": "com.bailym:extraarmor:1.17.3@jar",
+          "name": "Extra Armor",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1008706,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/ExtraArmor-1.20.1-1.17.4.jar",
+            "MD5": "f566bd4f60c0ef37954e8e98cc6ae7e8"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          }
+        },
+        {
+          "id": "net.xolt:freecam:1.2.1+1.20@jar",
+          "name": "Freecam",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 75389,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/freecam-forge-1.2.1+1.20.jar",
+            "MD5": "3301388f64a2bcbc760ca33324bca2c0"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbessentials:2001.2.3@jar",
+          "name": "FTB Essentials",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 156203,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/ftb-essentials-forge-2001.2.3.jar",
+            "MD5": "5d3acae1dc695190604bd4a2f5423d06"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftblibrary:2001.2.12@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 780523,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/ftb-library-forge-2001.2.12.jar",
+            "MD5": "8bbd067159587d80f1c5286ea52e567b"
+          }
+        },
+        {
+          "id": "net.gabou:gaboulibs:1.7.1@jar",
+          "name": "Gaboulibs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25349,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/gaboulibs-forge-1.7.1.jar",
+            "MD5": "a831f7f8d6d5f42fb7eaa4583241c41e"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.8.3@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1039047,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.8.3.jar",
+            "MD5": "60b7bce466abc60377785bf3dc84974c"
+          }
+        },
+        {
+          "id": "gtcraft:gtcraft:2.0.1@jar",
+          "name": "GT CRAFT",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19818838,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/gtcraft-2.0.1(1.20.1).jar",
+            "MD5": "4afb86d25352e6edbe994f18ccd92bec"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:iceandfire:2.1.13-1.20.1@jar",
+          "name": "Ice and Fire",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21854126,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/iceandfire-2.1.13-1.20.1-beta-5.jar",
+            "MD5": "cadbfab46fa1b02f9a9b09fa5cf86803"
+          }
+        },
+        {
+          "id": "draylar.identity:identity:2.9.2-1.20.1@jar",
+          "name": "Identity",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2155195,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/identity-2.9.2-1.20.1-forge.jar",
+            "MD5": "ebd3ffac43b5f2dc5f46974ce4bde759"
+          }
+        },
+        {
+          "id": "mcinterface1201:mts:23.0.0@jar",
+          "name": "Immersive Vehicles (formerly MTS)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6224428,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/Immersive%20Vehicles-1.20.1-23.0.0.jar",
+            "MD5": "03bdda40817072bc72e21ab88bb1186b"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.13.2+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 552486,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/Jade-1.20.1-Forge-11.13.2.jar",
+            "MD5": "7c349670f77fd64b9e9854c4a8d82fcc"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.129@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1409642,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.129.jar",
+            "MD5": "a5192227a15e0fe0e367828b32c1f472"
+          }
+        },
+        {
+          "id": "net.mcreator.luckyblocksultimate:lbu2:1.3@jar",
+          "name": "Lucky Blocks Ultimate 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4967363,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/lbu2-1.3-forge-1.20.1.jar",
+            "MD5": "bca09fe721e841506de9c4f270c682d6"
+          }
+        },
+        {
+          "id": "com.github.l_ender:lionfishapi:2.4-Fix@jar",
+          "name": "LionfishAPI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 162767,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/lionfishapi-2.4-Fix.jar",
+            "MD5": "81efd7c198c3c7036c77c79cae764ed4"
+          }
+        },
+        {
+          "id": "mod.lucky:lucky:1.20.1-13.0@jar",
+          "name": "Lucky Block",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1989566,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/lucky-block-forge-1.20.1-13.0.jar",
+            "MD5": "4f0ee5a791cdb770fbc2ac22f98648c5"
+          }
+        },
+        {
+          "id": "luckytntlib:luckytntlib:47.2.32.0@jar",
+          "name": "Lucky TNT Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 84651,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/luckytntlib-1.20-47.2.32.0.jar",
+            "MD5": "9346be4499fd00aacffe0a2fc9363b31"
+          }
+        },
+        {
+          "id": "luckytnt:luckytntmod:2.4@jar",
+          "name": "Lucky TNT Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3005583,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/luckytntmod-1.20-2.4.jar",
+            "MD5": "cb35af7aa6dce130c45a0ffc8ac7288e"
+          }
+        },
+        {
+          "id": "stepsword.mahoutsukai:mahoutsukai:1.20.1-v1.34.81@jar",
+          "name": "Mahou Tsukai",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4442849,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/mahoutsukai-1.20.1-v1.34.81.jar",
+            "MD5": "adb5cdd802aa17511a22ae17c9ee9eec"
+          }
+        },
+        {
+          "id": "mikumiku.youcancallme:miku:1.0.0@jar",
+          "name": "Miku",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 228238,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/miku-1.0.0-forge-1.20.1.jar",
+            "MD5": "966cc8a81f587f9ad8cce1d0b1e4945f"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.26.2+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 826829,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/modernfix-forge-5.26.2+mc1.20.1.jar",
+            "MD5": "61332114c9c317080faaf35f8183d67b"
+          }
+        },
+        {
+          "id": "net.mcreator:moresswords:1.0.0@jar",
+          "name": "Moresswords",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 235815,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/moresswords-1.1.0-forge-1.20.1.jar",
+            "MD5": "ae19fe650246d6bb9e96e13e72c6f033"
+          }
+        },
+        {
+          "id": "mtsofficialpack:mtsofficialpack:28@jar",
+          "name": "Immersive Vehicles (MTS/IV) - Official Content Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 89590985,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/MTS%20Official%20Pack-1.20.1-V28.2.jar",
+            "MD5": "5e6b81c240b4f8f7e4bd30be4065b596"
+          }
+        },
+        {
+          "id": "oamp:oamp:1@jar",
+          "name": "Immersive Vehicles (MTS/IV) - Official Automobile Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13455542,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/OAmP-1.20.1-V1.jar",
+            "MD5": "d08290fb99bfd3a1c750bc7565560fc0"
+          }
+        },
+        {
+          "id": "it.hurts.octostudios:octolib:0.5.0.1@jar",
+          "name": "OctoLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 424035,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+            "MD5": "6b2fd012966b13a96ce4f68ae42eab8c"
+          }
+        },
+        {
+          "id": "net.tysontheember.orbitalrailgun:orbital_railgun:1.4.2@jar",
+          "name": "Orbital Railgun Forge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 830757,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/orbital_railgun-1.4.2.jar",
+            "MD5": "523031ce3637564999d5908351c529fe"
+          }
+        },
+        {
+          "id": "net.mcreator.pehkuiresizer:pehkui_resizer:3.5.4@jar",
+          "name": "Pehkui Resizer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 142846,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/Pehkui_Resizer_V3.5.4___1.20.1.jar",
+            "MD5": "3e392637e3ada86b34c2ad901d870010"
+          }
+        },
+        {
+          "id": "virtuoel.pehkui:pehkui:3.8.2+1.20.1-forge@jar",
+          "name": "Pehkui",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 671605,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/Pehkui-3.8.2+1.20.1-forge.jar",
+            "MD5": "95bdd5558d34044f54aab0ce292e679b"
+          }
+        },
+        {
+          "id": "com.replaymod.core:reforgedplaymod:0.3.1@jar",
+          "name": "ReForgedPlay Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16661938,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/reforgedplaymod-1.20.1-0.3.1.jar",
+            "MD5": "a1fe7a8cba5fec900fb61689fb67fb74"
+          }
+        },
+        {
+          "id": "it.hurts.sskirillss:relics:0.8.0.11@jar",
+          "name": "Relics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1518437,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/relics-1.20.1-0.8.0.11.jar",
+            "MD5": "450bc342776c6e63294453377c50dd1c"
+          }
+        },
+        {
+          "id": "com.boyonk.repoheads.client:repo_heads:1.2.1+1.20.1@jar",
+          "name": "R.E.P.O. Heads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 764881,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/repo-heads-forge-1.2.1+1.20.1.jar",
+            "MD5": "d687bab854b0fb6e32c16ddaadc771ef"
+          }
+        },
+        {
+          "id": "com.blamejared:searchables:1.0.3@jar",
+          "name": "Searchables",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 77732,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/Searchables-forge-1.20.1-1.0.3.jar",
+            "MD5": "9f5418e9c08c18a375ef42fada4bcef2"
+          }
+        },
+        {
+          "id": "com.tacz.guns:tacz:1.1.7-hotfix@jar",
+          "name": "Timeless & Classics Guns: Zero",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52425650,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/tacz-1.20.1-1.1.7-hotfix.jar",
+            "MD5": "e91391b09e25ec5994c28593117f5908"
+          }
+        },
+        {
+          "id": "com.sofodev:thedragonlib:1.20.1-1.0.0@jar",
+          "name": "TheDragonLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38506,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/thedragonlib-1.20.1-1.0.0.jar",
+            "MD5": "6c825604ef0a27aff9ecce04fda16ef6"
+          }
+        },
+        {
+          "id": "com.github.tartaricacid.touhoulittlemaid:touhou_little_maid:1.5.0-forge+mc1.20.1@jar",
+          "name": "Touhou Little Maid",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23205221,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/touhoulittlemaid-1.5.0-forge+mc1.20.1-release.jar",
+            "MD5": "dadee2bf610e66c3a3adaf94bbe5262c"
+          }
+        },
+        {
+          "id": "twilightforest:twilightforest:4.3.2508@jar",
+          "name": "The Twilight Forest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23332091,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/twilightforest-1.20.1-4.3.2508-universal.jar",
+            "MD5": "0e1ca36ec2ca7e35059dea1600aa31ee"
+          }
+        },
+        {
+          "id": "com.utils_bahcraft:utils_bahcraft:1.3.1@jar",
+          "name": "Utils BahCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 145929,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/utils_bahcraft-1.3.1.jar",
+            "MD5": "cac43508b23f1cd9dcc176e3e0634aca"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.5.35@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8646989,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.5.35.jar",
+            "MD5": "434aeb9f4c3b5014b0179701dbeffc4b"
+          }
+        },
+        {
+          "id": "voltaic:voltaic:1.20.1-1.0.2-0@jar",
+          "name": "Voltaic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1829267,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/Voltaic-1.20.1-1.0.2-0.jar",
+            "MD5": "65c97b1efbff24ed2efa98cb0c1ba8db"
+          }
+        },
+        {
+          "id": "nonamecrackers2.witherstormmod:witherstormmod:4.2.1@jar",
+          "name": "Cracker's Wither Storm Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47342265,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/witherstormmod-1.20.1-4.2.1-all.jar",
+            "MD5": "401ef2f3270a67caf03a6c30610063e3"
+          }
+        },
+        {
+          "id": "wmp:wmp:0.1@jar",
+          "name": "Immersive Vehicles (MTS/IV) - WarBorn Millitary Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10779910,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/WMP-1.16.5test_fixed_fixed.jar",
+            "MD5": "e9aae27acbec2ca239f7b0e791d74d65"
+          }
+        },
+        {
+          "id": "net.esplat.worldedititems:worldedit_items:2.0@jar",
+          "name": "WorldEdit Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13417,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/worldedit_items-2.0-forge-1.20.1.jar",
+            "MD5": "7aa41e522663a77ef92b9f892fe6cb04"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.2.15+6463-5ca4dff@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5825402,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/worldedit-mod-7.2.15.jar",
+            "MD5": "bd0e7cff7896348faab92e43300d0639"
+          }
+        },
+        {
+          "id": "org.enginehub:worldeditcui:1.20+01@jar",
+          "name": "WorldEditCUI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 168681,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/WorldEditCUI-1.20+01.jar",
+            "MD5": "be7a269d42197118f62271b60d3cc299"
+          }
+        }
+      ]
+    }
+  ]
+}
