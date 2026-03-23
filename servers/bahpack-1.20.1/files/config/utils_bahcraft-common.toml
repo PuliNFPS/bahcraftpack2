@@ -1,0 +1,6 @@
+#How much attack damage the Lightning Hammer deals.
+#Range: 1 ~ 100
+hammerDamage = 8
+#If set to false, players cannot toggle the Lightning Mode.
+allowModeSwitch = true
+

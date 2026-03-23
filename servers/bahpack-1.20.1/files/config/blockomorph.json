@@ -1,0 +1,20 @@
+{
+  "access": {
+    "listMode": "NONE",
+    "allowedBlocks": [],
+    "bannedBlocks": [],
+    "solidBlocksOnly": false,
+    "offUnbreakableBlocks": false,
+    "screenAccess": "ALL"
+  },
+  "blockBehaviour": {
+    "useMode": "ALL",
+    "placeMode": "OUT",
+    "hitReaction": "BRAKING",
+    "entityInside": true,
+    "liquidsInBlocks": false,
+    "blockClientParticles": true
+  },
+  "playerDieAfterDestroy": true,
+  "canOperatorModifyConfig": true
+}
