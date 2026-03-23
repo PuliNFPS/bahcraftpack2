@@ -4161,7 +4161,8 @@
                     "artifact": {
                         "size": 127986000,
                         "url": "https://drive.google.com/uc?export=download&id=1r00As-hxIcM4v1V-17Gz1bKWlVCD84VT&confirm=t",
-                        "path": "forgemods/required/L_Enders_Cataclysm-3.16.jar"
+                        "path": "forgemods/required/L_Enders_Cataclysm-3.16.jar",
+                        "MD5": "12345678901234567890123456789012"
                     }
                 }
             ]
