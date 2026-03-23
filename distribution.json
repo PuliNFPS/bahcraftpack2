@@ -1043,7 +1043,7 @@
                     }
                 },
                 {
-                    "id": "l_enders_cataclysm-3.16",
+                    "id": "l_enders:cataclysm:3.16@jar",
                     "name": "L_Enders_Cataclysm-3.16.jar",
                     "type": "ForgeMod",
                     "artifact": {
