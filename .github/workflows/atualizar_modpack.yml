@@ -22,7 +22,6 @@ jobs:
       - name: Gerar o JSON base com o Nebula
         run: |
           npm run start -- generate distro
-          cd ../..
 
       - name: Executar o Injetor Cirúrgico (Cataclysm e MD5)
         run: node injetar.js
