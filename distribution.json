@@ -533,6 +533,16 @@
                     }
                 },
                 {
+                    "id": "com.enzogl:bahletters:0.1.0@jar",
+                    "name": "Bah Letters",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 420352,
+                        "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/bahletters-0.1.0.jar",
+                        "MD5": "3502804235c947eb4283c21ade7f96ac"
+                    }
+                },
+                {
                     "id": "ballistix:ballistix:1.20.1-1.0.1-0@jar",
                     "name": "Ballistix",
                     "type": "ForgeMod",
