@@ -1,0 +1,38 @@
+name: Atualizar Modpack Automático
+
+# O robô só acorda quando fizermos um push que altere a pasta de mods
+on:
+  push:
+    paths:
+      - 'servers/bahpack-1.20.1/forgemods/required/**.jar'
+
+jobs:
+  construir-json:
+    runs-on: ubuntu-latest # Um computador Linux gratuito na nuvem
+    
+    steps:
+      - name: Clonar os ficheiros do repositório
+        uses: actions/checkout@v4
+
+      - name: Instalar o Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Gerar o JSON base com o Nebula
+        run: |
+          cd node_modules/nebula
+          npm run start -- generate distro
+          cd ../..
+
+      - name: Executar o Injetor Cirúrgico (Cataclysm e MD5)
+        run: node injetar.js
+
+      - name: Guardar as alterações (Commit e Push)
+        run: |
+          git config --global user.name "Robô do Estúdio"
+          git config --global user.email "actions@github.com"
+          git add distribution.json
+          # O comando || echo evita que o robô dê erro se não houver alterações
+          git commit -m "🤖 JSON atualizado automaticamente pela Nuvem" || echo "Nenhuma alteração no JSON."
+          git push
