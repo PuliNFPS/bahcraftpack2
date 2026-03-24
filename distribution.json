@@ -933,6 +933,16 @@
                     }
                 },
                 {
+                    "id": "it.hurts.sskirillss:relics:0.8.0.13@jar",
+                    "name": "Relics",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 1521089,
+                        "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/relics-1.20.1-0.8.0.13.jar",
+                        "MD5": "8e8a8beb1ac0776448dfbcec179734a1"
+                    }
+                },
+                {
                     "id": "com.boyonk.repoheads.client:repo_heads:1.2.1+1.20.1@jar",
                     "name": "R.E.P.O. Heads",
                     "type": "ForgeMod",
