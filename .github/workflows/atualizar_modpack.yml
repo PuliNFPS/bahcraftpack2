@@ -21,7 +21,6 @@ jobs:
 
       - name: Gerar o JSON base com o Nebula
         run: |
-          cd node_modules/nebula
           npm run start -- generate distro
           cd ../..
 
