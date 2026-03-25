@@ -37,7 +37,7 @@ jobs:
         run: npm run start -- generate distro
 
       - name: Executar o Injetor Cirúrgico (Cataclysm e MD5)
-        run: node injetar.js
+        run: node injetar.cjs
 
       - name: Guardar as alterações (Commit e Push)
         run: |
