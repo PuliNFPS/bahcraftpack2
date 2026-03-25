@@ -553,6 +553,16 @@
           }
         },
         {
+          "id": "net.blockomorph:blockomorph:1.0.11@jar",
+          "name": "Block'oMorph",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 895628,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/blockomorph-1.20.1-forge-1.0.11.jar",
+            "MD5": "0b076e93ddb55844ed9f770e005b978e"
+          }
+        },
+        {
           "id": "net.mcreator:brasilcoisas:2.0.0@jar",
           "name": "Brasil e Coisas",
           "type": "ForgeMod",
