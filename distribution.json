@@ -1404,17 +1404,6 @@
           }
         },
         {
-          "id": "fly_spawns.json",
-          "name": "fly_spawns.json",
-          "type": "File",
-          "artifact": {
-            "size": 145,
-            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/alexsmobs/fly_spawns.json",
-            "MD5": "2c88b50ebef0c2d8cefd7fec53cc1b31",
-            "path": "config/alexsmobs/fly_spawns.json"
-          }
-        },
-        {
           "id": "flying_fish_spawns.json",
           "name": "flying_fish_spawns.json",
           "type": "File",
@@ -1423,6 +1412,17 @@
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/alexsmobs/flying_fish_spawns.json",
             "MD5": "7bf21cd1ccc1499470e52d91402a899f",
             "path": "config/alexsmobs/flying_fish_spawns.json"
+          }
+        },
+        {
+          "id": "fly_spawns.json",
+          "name": "fly_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/alexsmobs/fly_spawns.json",
+            "MD5": "2c88b50ebef0c2d8cefd7fec53cc1b31",
+            "path": "config/alexsmobs/fly_spawns.json"
           }
         },
         {
@@ -1624,17 +1624,6 @@
           }
         },
         {
-          "id": "mimic_octopus_spawns.json",
-          "name": "mimic_octopus_spawns.json",
-          "type": "File",
-          "artifact": {
-            "size": 373,
-            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/alexsmobs/mimic_octopus_spawns.json",
-            "MD5": "468f301a2a863dc3c56c0dffc967fb73",
-            "path": "config/alexsmobs/mimic_octopus_spawns.json"
-          }
-        },
-        {
           "id": "mimicube_spawns.json",
           "name": "mimicube_spawns.json",
           "type": "File",
@@ -1643,6 +1632,17 @@
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/alexsmobs/mimicube_spawns.json",
             "MD5": "5dfd54d2860bbecb3d63d3a0cbc42752",
             "path": "config/alexsmobs/mimicube_spawns.json"
+          }
+        },
+        {
+          "id": "mimic_octopus_spawns.json",
+          "name": "mimic_octopus_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 373,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/alexsmobs/mimic_octopus_spawns.json",
+            "MD5": "468f301a2a863dc3c56c0dffc967fb73",
+            "path": "config/alexsmobs/mimic_octopus_spawns.json"
           }
         },
         {
@@ -2057,9 +2057,9 @@
           "name": "alexsmobs.toml",
           "type": "File",
           "artifact": {
-            "size": 35481,
+            "size": 36192,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/alexsmobs.toml",
-            "MD5": "2e755a862c114c64e42d2cbc216f37d5",
+            "MD5": "6b5567e6a3a903e0102c576899a33226",
             "path": "config/alexsmobs.toml"
           }
         },
@@ -2068,9 +2068,9 @@
           "name": "appleskin-client.toml",
           "type": "File",
           "artifact": {
-            "size": 1337,
+            "size": 1361,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/appleskin-client.toml",
-            "MD5": "231dc83013e53ea576f6b38629efb713",
+            "MD5": "999dd7d912a7eb915c59b1025710ca12",
             "path": "config/appleskin-client.toml"
           }
         },
@@ -2079,9 +2079,9 @@
           "name": "armorplus-common.toml",
           "type": "File",
           "artifact": {
-            "size": 16276,
+            "size": 16724,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/armorplus-common.toml",
-            "MD5": "2af672f94d292c5878e4a2fad1128ba8",
+            "MD5": "193a825f7d6ef83d8f42c8f27d7b6554",
             "path": "config/armorplus-common.toml"
           }
         },
@@ -2200,9 +2200,9 @@
           "name": "cataclysm.toml",
           "type": "File",
           "artifact": {
-            "size": 19988,
+            "size": 20644,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/cataclysm.toml",
-            "MD5": "a0d52446ca18f3692f7809922e9c450f",
+            "MD5": "600d2ce1995f17bcf85636f2e1f7b58b",
             "path": "config/cataclysm.toml"
           }
         },
@@ -2211,9 +2211,9 @@
           "name": "citadel-common.toml",
           "type": "File",
           "artifact": {
-            "size": 636,
+            "size": 648,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/citadel-common.toml",
-            "MD5": "0fb59aa0692626a785e18d0729133b97",
+            "MD5": "f211eac94129201b25acdeee49218d43",
             "path": "config/citadel-common.toml"
           }
         },
@@ -2222,9 +2222,9 @@
           "name": "crackerslib-client.toml",
           "type": "File",
           "artifact": {
-            "size": 149,
+            "size": 152,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/crackerslib-client.toml",
-            "MD5": "f5981729a18280aec362e6b2522a61cd",
+            "MD5": "e9200fac424b3051dfc7f917b3ae6443",
             "path": "config/crackerslib-client.toml"
           }
         },
@@ -2233,9 +2233,9 @@
           "name": "curios-client.toml",
           "type": "File",
           "artifact": {
-            "size": 683,
+            "size": 706,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/curios-client.toml",
-            "MD5": "4101d9b9029ca0b9f97f0575391acf7a",
+            "MD5": "67aaec1814836fed2d3e021c29ef6848",
             "path": "config/curios-client.toml"
           }
         },
@@ -2244,9 +2244,9 @@
           "name": "curios-common.toml",
           "type": "File",
           "artifact": {
-            "size": 156,
+            "size": 161,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/curios-common.toml",
-            "MD5": "c565a4d0c7b8411062ff46734a8df539",
+            "MD5": "4e1978c603823135e91f736983a96649",
             "path": "config/curios-common.toml"
           }
         },
@@ -2266,9 +2266,9 @@
           "name": "extraarmor-common.toml",
           "type": "File",
           "artifact": {
-            "size": 2613,
+            "size": 2689,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/extraarmor-common.toml",
-            "MD5": "fd905beb5868a953aa9c4dff094834ba",
+            "MD5": "5a6f800ffe367ec796ff68e832c89fd5",
             "path": "config/extraarmor-common.toml"
           }
         },
@@ -2277,9 +2277,9 @@
           "name": "ferritecore-mixin.toml",
           "type": "File",
           "artifact": {
-            "size": 1493,
+            "size": 1516,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/ferritecore-mixin.toml",
-            "MD5": "fa651d9da306dd7e47ee5136e72f72f2",
+            "MD5": "ab9006eb6d50292a11f757c0ae658ac0",
             "path": "config/ferritecore-mixin.toml"
           }
         },
@@ -2288,9 +2288,9 @@
           "name": "fml.toml",
           "type": "File",
           "artifact": {
-            "size": 1118,
+            "size": 1147,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/fml.toml",
-            "MD5": "8db99420e94dd35db79a6a8a7b801696",
+            "MD5": "69de99a0b6537f52ae3c9c239d7f0e42",
             "path": "config/fml.toml"
           }
         },
@@ -2299,9 +2299,9 @@
           "name": "forge-client.toml",
           "type": "File",
           "artifact": {
-            "size": 1602,
+            "size": 1628,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/forge-client.toml",
-            "MD5": "975ed82390b8039c41cc82181a13a9e4",
+            "MD5": "94d0dcbf248b1ee18bf1266c672327a1",
             "path": "config/forge-client.toml"
           }
         },
@@ -2310,9 +2310,9 @@
           "name": "freecam.toml",
           "type": "File",
           "artifact": {
-            "size": 1728,
+            "size": 1774,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/freecam.toml",
-            "MD5": "115a155cecdf279ea70600971357e176",
+            "MD5": "0a8681e0a3476ec3da3ed4cc725dfa42",
             "path": "config/freecam.toml"
           }
         },
@@ -2772,9 +2772,9 @@
           "name": "iceandfire-client.toml",
           "type": "File",
           "artifact": {
-            "size": 312,
+            "size": 321,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/iceandfire-client.toml",
-            "MD5": "7709d7e0e10ff2fa2e29808bc87e58f9",
+            "MD5": "bbd650bce0cc68ffde3ffc11d3fff376",
             "path": "config/iceandfire-client.toml"
           }
         },
@@ -2783,9 +2783,9 @@
           "name": "iceandfire-common.toml",
           "type": "File",
           "artifact": {
-            "size": 15517,
+            "size": 15912,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/iceandfire-common.toml",
-            "MD5": "c762dc3a89f170ad2e5998ac7d9e7709",
+            "MD5": "40e4152c5acedea7ddd185b163e5fbab",
             "path": "config/iceandfire-common.toml"
           }
         },
@@ -2882,9 +2882,9 @@
           "name": "ingredient-list-mod-sort-order.ini",
           "type": "File",
           "artifact": {
-            "size": 452,
+            "size": 482,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/jei/ingredient-list-mod-sort-order.ini",
-            "MD5": "777f3b90196687e34893a6cb75493e5c",
+            "MD5": "5ababdc6256632c408165766169975a9",
             "path": "config/jei/ingredient-list-mod-sort-order.ini"
           }
         },
@@ -2893,9 +2893,9 @@
           "name": "ingredient-list-type-sort-order.ini",
           "type": "File",
           "artifact": {
-            "size": 176,
+            "size": 181,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/jei/ingredient-list-type-sort-order.ini",
-            "MD5": "2678759f92902f6a25e8c4b3d1c0e143",
+            "MD5": "150b5983da212614a7a425cae000645d",
             "path": "config/jei/ingredient-list-type-sort-order.ini"
           }
         },
@@ -2904,9 +2904,9 @@
           "name": "jei-client.ini",
           "type": "File",
           "artifact": {
-            "size": 8398,
+            "size": 8658,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/jei/jei-client.ini",
-            "MD5": "4249a38ddda3ed74b1ca950a8d345f3f",
+            "MD5": "d84fcde71cc89202a32f5b10f2c3c89f",
             "path": "config/jei/jei-client.ini"
           }
         },
@@ -2915,9 +2915,9 @@
           "name": "jei-colors.ini",
           "type": "File",
           "artifact": {
-            "size": 1330,
+            "size": 1338,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/jei/jei-colors.ini",
-            "MD5": "af367fbcbb607dddcdac7ff58ce40537",
+            "MD5": "54322062602d3aabb6b11455e07de765",
             "path": "config/jei/jei-colors.ini"
           }
         },
@@ -2926,9 +2926,9 @@
           "name": "jei-debug.ini",
           "type": "File",
           "artifact": {
-            "size": 886,
+            "size": 918,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/jei/jei-debug.ini",
-            "MD5": "298d876ba059f2c6dd2fc205584f6a8e",
+            "MD5": "4dd10e2f07441d4820fe65e804aac24c",
             "path": "config/jei/jei-debug.ini"
           }
         },
@@ -2937,9 +2937,9 @@
           "name": "jei-mod-id-format.ini",
           "type": "File",
           "artifact": {
-            "size": 452,
+            "size": 463,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/jei/jei-mod-id-format.ini",
-            "MD5": "364098057fabac71c5119e23a1cde587",
+            "MD5": "457dca8722dc66e695196c24fba7875f",
             "path": "config/jei/jei-mod-id-format.ini"
           }
         },
@@ -2948,9 +2948,9 @@
           "name": "recipe-category-sort-order.ini",
           "type": "File",
           "artifact": {
-            "size": 1433,
+            "size": 1486,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/jei/recipe-category-sort-order.ini",
-            "MD5": "50f31f048ae1ec49aae5323d22bcd12c",
+            "MD5": "1589f7f746a49464a2fa911d4888b4c7",
             "path": "config/jei/recipe-category-sort-order.ini"
           }
         },
@@ -2959,9 +2959,9 @@
           "name": "lookupHistory.ini",
           "type": "File",
           "artifact": {
-            "size": 907,
+            "size": 925,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/jei/world/server/BAHCRAFT_7d967330/lookupHistory.ini",
-            "MD5": "f58ba1d30abaad107443d6e9e56f3fca",
+            "MD5": "664839691ec9ffb156a24a05cb20f226",
             "path": "config/jei/world/server/BAHCRAFT_7d967330/lookupHistory.ini"
           }
         },
@@ -2970,9 +2970,9 @@
           "name": "bow_drops.txt",
           "type": "File",
           "artifact": {
-            "size": 4001,
+            "size": 4120,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/lucky/1.20.1-13.0-forge/bow_drops.txt",
-            "MD5": "3eefff80eaa8dba4a7a5b007680bf5fa",
+            "MD5": "0326562b7bea10d401ad23bd409c3953",
             "path": "config/lucky/1.20.1-13.0-forge/bow_drops.txt"
           }
         },
@@ -2981,9 +2981,9 @@
           "name": "drops.txt",
           "type": "File",
           "artifact": {
-            "size": 26371,
+            "size": 26834,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/lucky/1.20.1-13.0-forge/drops.txt",
-            "MD5": "669e52e57458ef89165bb532376fe9e5",
+            "MD5": "b4ad5aa2352f523bc3e6dca620a98d73",
             "path": "config/lucky/1.20.1-13.0-forge/drops.txt"
           }
         },
@@ -2992,9 +2992,9 @@
           "name": "luck_crafting.txt",
           "type": "File",
           "artifact": {
-            "size": 319,
+            "size": 341,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/lucky/1.20.1-13.0-forge/luck_crafting.txt",
-            "MD5": "c3cba8a987481e7f6d88a100ea69b2b2",
+            "MD5": "34451cc1929881b9dda130902cf2a54d",
             "path": "config/lucky/1.20.1-13.0-forge/luck_crafting.txt"
           }
         },
@@ -3003,9 +3003,9 @@
           "name": "natural_gen.txt",
           "type": "File",
           "artifact": {
-            "size": 1075,
+            "size": 1100,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/lucky/1.20.1-13.0-forge/natural_gen.txt",
-            "MD5": "71fc6a0ede040c77a9c4a20e6260b5a0",
+            "MD5": "0fe5f47445d5c85ab5a59b69efbb8ef4",
             "path": "config/lucky/1.20.1-13.0-forge/natural_gen.txt"
           }
         },
@@ -3014,9 +3014,9 @@
           "name": "potion_drops.txt",
           "type": "File",
           "artifact": {
-            "size": 5657,
+            "size": 5828,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/lucky/1.20.1-13.0-forge/potion_drops.txt",
-            "MD5": "d3411cca3dc9c29619dc40241030737f",
+            "MD5": "a088ed1ba82b7bacfe42dd53accadc4e",
             "path": "config/lucky/1.20.1-13.0-forge/potion_drops.txt"
           }
         },
@@ -3025,9 +3025,9 @@
           "name": "properties.txt",
           "type": "File",
           "artifact": {
-            "size": 26,
+            "size": 27,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/lucky/1.20.1-13.0-forge/properties.txt",
-            "MD5": "8ea7f79b4be93840ea0316d3e1fc0dad",
+            "MD5": "33f979add1e2c9fae6fe999e43f8f337",
             "path": "config/lucky/1.20.1-13.0-forge/properties.txt"
           }
         },
@@ -3289,9 +3289,9 @@
           "name": "structures.txt",
           "type": "File",
           "artifact": {
-            "size": 1907,
+            "size": 1944,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/lucky/1.20.1-13.0-forge/structures.txt",
-            "MD5": "95955b3a6ae746b0a4cb368ab930876f",
+            "MD5": "7cdc055e2e64e3f49d4990fbfc39a8a9",
             "path": "config/lucky/1.20.1-13.0-forge/structures.txt"
           }
         },
@@ -3300,9 +3300,9 @@
           "name": "sword_drops.txt",
           "type": "File",
           "artifact": {
-            "size": 2510,
+            "size": 2589,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/lucky/1.20.1-13.0-forge/sword_drops.txt",
-            "MD5": "124c9edbeeb0d2c320c2641557bddece",
+            "MD5": "87f86f22565577aa99445da659cc81c4",
             "path": "config/lucky/1.20.1-13.0-forge/sword_drops.txt"
           }
         },
@@ -3311,9 +3311,9 @@
           "name": "luckytntlib-common.toml",
           "type": "File",
           "artifact": {
-            "size": 330,
+            "size": 339,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/luckytntlib-common.toml",
-            "MD5": "ce52288d49ac4515a2f4de0e96e2a312",
+            "MD5": "2349873fcf59c6023ee0361c0cae1bf3",
             "path": "config/luckytntlib-common.toml"
           }
         },
@@ -3322,9 +3322,9 @@
           "name": "luckytntmod-common.toml",
           "type": "File",
           "artifact": {
-            "size": 1657,
+            "size": 1713,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/luckytntmod-common.toml",
-            "MD5": "3eddbec17bd0ced73a1a89026c841eff",
+            "MD5": "ecc1314b807c1aa9b6395d98c89944b9",
             "path": "config/luckytntmod-common.toml"
           }
         },
@@ -3333,9 +3333,9 @@
           "name": "mahoutsukai-client.toml",
           "type": "File",
           "artifact": {
-            "size": 2077,
+            "size": 2147,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/mahoutsukai-client.toml",
-            "MD5": "dfd48c5ab25399d084a336f14f717b96",
+            "MD5": "36824cfb742d06ba69092ef630c9fd60",
             "path": "config/mahoutsukai-client.toml"
           }
         },
@@ -3355,9 +3355,9 @@
           "name": "modernfix-common.toml",
           "type": "File",
           "artifact": {
-            "size": 104,
+            "size": 107,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/modernfix-common.toml",
-            "MD5": "1422faa756ad426d0f5f9cf97ef21451",
+            "MD5": "1d50de2e9c0bda2952844de7a3306d10",
             "path": "config/modernfix-common.toml"
           }
         },
@@ -3399,9 +3399,9 @@
           "name": "orbital_railgun-client.toml",
           "type": "File",
           "artifact": {
-            "size": 713,
+            "size": 734,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/orbital_railgun-client.toml",
-            "MD5": "efb53b50b47be468d141371b1914cfb4",
+            "MD5": "da5659d3d2eeabdff515e3ce8716594c",
             "path": "config/orbital_railgun-client.toml"
           }
         },
@@ -3410,9 +3410,9 @@
           "name": "orbital_railgun-common.toml",
           "type": "File",
           "artifact": {
-            "size": 1930,
+            "size": 1977,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/orbital_railgun-common.toml",
-            "MD5": "c2d88059ce145cd89400e19f5527275b",
+            "MD5": "f5424e0d7d784626c8f453400225a951",
             "path": "config/orbital_railgun-common.toml"
           }
         },
@@ -3421,9 +3421,9 @@
           "name": "pehkui-client.toml",
           "type": "File",
           "artifact": {
-            "size": 132,
+            "size": 138,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/pehkui-client.toml",
-            "MD5": "a9f63120dc05acf6288f89ad3e83f595",
+            "MD5": "319a4fcb484d622b63c3b084f90aeb75",
             "path": "config/pehkui-client.toml"
           }
         },
@@ -3432,9 +3432,9 @@
           "name": "pehkui-common.toml",
           "type": "File",
           "artifact": {
-            "size": 389,
+            "size": 407,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/pehkui-common.toml",
-            "MD5": "ad4e3b41b77c54a1391c40b04660321f",
+            "MD5": "598daff44b47eff89332e1677c59ca87",
             "path": "config/pehkui-common.toml"
           }
         },
@@ -3894,9 +3894,9 @@
           "name": "tacz-client.toml",
           "type": "File",
           "artifact": {
-            "size": 2421,
+            "size": 2482,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/tacz-client.toml",
-            "MD5": "eb3783c0b61c4f2daeab760e9bb7b4ed",
+            "MD5": "69e4024cd384f8c04d6bfcf2b1ad818e",
             "path": "config/tacz-client.toml"
           }
         },
@@ -3905,9 +3905,9 @@
           "name": "tacz-common.toml",
           "type": "File",
           "artifact": {
-            "size": 2117,
+            "size": 2172,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/tacz-common.toml",
-            "MD5": "b8c154a85d3165cc31b7d26547cf2dcf",
+            "MD5": "a0094e7d081be356dd5974c2bf6b5420",
             "path": "config/tacz-common.toml"
           }
         },
@@ -3960,9 +3960,9 @@
           "name": "touhou_little_maid-common.toml",
           "type": "File",
           "artifact": {
-            "size": 7493,
+            "size": 7692,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/touhou_little_maid-common.toml",
-            "MD5": "fa672ad63c3cb8122b3030cc0a286e0e",
+            "MD5": "53f85811a793ab975ad14f228cec2892",
             "path": "config/touhou_little_maid-common.toml"
           }
         },
@@ -3993,9 +3993,9 @@
           "name": "twilightforest-client.toml",
           "type": "File",
           "artifact": {
-            "size": 1541,
+            "size": 1565,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/twilightforest-client.toml",
-            "MD5": "662ee286f64014c1da18abf3e0bfad53",
+            "MD5": "a979447ba0277e1c05fbb684cc812669",
             "path": "config/twilightforest-client.toml"
           }
         },
@@ -4004,9 +4004,9 @@
           "name": "twilightforest-common.toml",
           "type": "File",
           "artifact": {
-            "size": 7648,
+            "size": 7758,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/twilightforest-common.toml",
-            "MD5": "3013b5f828cd4d342ba1d68bdf6afa46",
+            "MD5": "1d2554a6c1a11ecf1bc56cbbc015c266",
             "path": "config/twilightforest-common.toml"
           }
         },
@@ -4015,9 +4015,9 @@
           "name": "utils_bahcraft-common.toml",
           "type": "File",
           "artifact": {
-            "size": 169,
+            "size": 175,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/utils_bahcraft-common.toml",
-            "MD5": "452fe58a5e376ed41a33c45beb7400f1",
+            "MD5": "ac27ed44d82b57c77c90b4945ef026aa",
             "path": "config/utils_bahcraft-common.toml"
           }
         },
@@ -4026,9 +4026,9 @@
           "name": "translations.properties",
           "type": "File",
           "artifact": {
-            "size": 1157,
+            "size": 1171,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/voicechat/translations.properties",
-            "MD5": "797524c2fc2289f9aea4095336df6fd7",
+            "MD5": "cd17d6c20788deefe6f09c705f2a11ad",
             "path": "config/voicechat/translations.properties"
           }
         },
@@ -4048,9 +4048,9 @@
           "name": "voicechat-client.properties",
           "type": "File",
           "artifact": {
-            "size": 4306,
+            "size": 4396,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/voicechat/voicechat-client.properties",
-            "MD5": "8ba7517315f2b0e6f649dd893d9468fa",
+            "MD5": "c5d8374398de68189a74ee540537e6ce",
             "path": "config/voicechat/voicechat-client.properties"
           }
         },
@@ -4059,9 +4059,9 @@
           "name": "voicechat-server.properties",
           "type": "File",
           "artifact": {
-            "size": 2449,
+            "size": 2502,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/voicechat/voicechat-server.properties",
-            "MD5": "60ea6622a36fc5801289db7e5616f2d6",
+            "MD5": "ab57bd932249f0fb22c1047da0b4d721",
             "path": "config/voicechat/voicechat-server.properties"
           }
         },
@@ -4070,9 +4070,9 @@
           "name": "voicechat-volumes.properties",
           "type": "File",
           "artifact": {
-            "size": 35,
+            "size": 37,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/voicechat/voicechat-volumes.properties",
-            "MD5": "a11015bb92e3d9c781d7247fbf73c5b3",
+            "MD5": "fcb38654c898989fdf9b82707c3ee2f5",
             "path": "config/voicechat/voicechat-volumes.properties"
           }
         },
@@ -4081,9 +4081,9 @@
           "name": "voicechat-client.toml",
           "type": "File",
           "artifact": {
-            "size": 91,
+            "size": 94,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/voicechat-client.toml",
-            "MD5": "7703edf084379ff0f1ca1f9c359e5099",
+            "MD5": "2fb2989fe60bf9a60eb6e8946ce4bb12",
             "path": "config/voicechat-client.toml"
           }
         },
@@ -4092,9 +4092,9 @@
           "name": "witherstormmod-client.toml",
           "type": "File",
           "artifact": {
-            "size": 4306,
+            "size": 4419,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/witherstormmod-client.toml",
-            "MD5": "ac1d4538016fc73d987996deabedd1b7",
+            "MD5": "979ae5eebf611e98e0dc60d3abf52467",
             "path": "config/witherstormmod-client.toml"
           }
         },
@@ -4103,9 +4103,9 @@
           "name": "witherstormmod-common.toml",
           "type": "File",
           "artifact": {
-            "size": 1460,
+            "size": 1492,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/witherstormmod-common.toml",
-            "MD5": "e9da10ffa1f99610bea0342e77d90b82",
+            "MD5": "741ae9fc1e11e58ee1018b9aae98d251",
             "path": "config/witherstormmod-common.toml"
           }
         },
@@ -4147,9 +4147,9 @@
           "name": "worldedit.properties",
           "type": "File",
           "artifact": {
-            "size": 2495,
+            "size": 2541,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/worldedit/worldedit.properties",
-            "MD5": "8e1c4e3bce1cadb840164b582663f0ac",
+            "MD5": "686f738b1e067d28ea55bd64f9ca053f",
             "path": "config/worldedit/worldedit.properties"
           }
         },
@@ -4163,7 +4163,6 @@
             "MD5": "c6bd364a6d658459a7c49f37342476bd",
             "path": "config/worldeditcui.config.json"
           }
-        }
         }
       ]
     }
