@@ -603,6 +603,16 @@
           }
         },
         {
+          "id": "com.corosus.coroutil.loader:coroutil:1.20.1-1.3.7@jar",
+          "name": "CoroUtil",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 64187,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/coroutil-forge-1.20.1-1.3.7.jar",
+            "MD5": "6fb9ccbe8c05c1da61c224d1127e9643"
+          }
+        },
+        {
           "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
           "name": "Curios API",
           "type": "ForgeMod",
@@ -990,6 +1000,16 @@
             "size": 1829267,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/Voltaic-1.20.1-1.0.2-0.jar",
             "MD5": "65c97b1efbff24ed2efa98cb0c1ba8db"
+          }
+        },
+        {
+          "id": "com.corosus.watut.loader:watut:1.20.1-1.2.3@jar",
+          "name": "What Are They Up To",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 435496,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/watut-forge-1.20.1-1.2.3.jar",
+            "MD5": "345d3ecdf94dffaa0e3ba55538c65f80"
           }
         },
         {
