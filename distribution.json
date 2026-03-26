@@ -1057,6 +1057,21 @@
           }
         },
         {
+          "id": "local:tacz-1_20_1-1_1_7-hotfix2:1.0@jar",
+          "name": "tacz-1.20.1-1.1.7-hotfix2.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 52426062,
+            "MD5": "0038fa8d38a045d711d8405eb6c382e6",
+            "url": "https://github.com/PuliNFPS/bahcraftpack2/releases/download/mods-pesados/tacz-1.20.1-1.1.7-hotfix2.jar",
+            "path": "forgemods/required/tacz-1.20.1-1.1.7-hotfix2.jar"
+          }
+        },
+        {
           "id": "alligator_snapping_turtle_spawns.json",
           "name": "alligator_snapping_turtle_spawns.json",
           "type": "File",
@@ -4156,6 +4171,28 @@
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/worldeditcui.config.json",
             "MD5": "c6bd364a6d658459a7c49f37342476bd",
             "path": "config/worldeditcui.config.json"
+          }
+        },
+        {
+          "id": "MTS Official Pack-1.20.1-V28.2.jar",
+          "name": "MTS Official Pack-1.20.1-V28.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 89590985,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/mods/MTS%20Official%20Pack-1.20.1-V28.2.jar",
+            "MD5": "5e6b81c240b4f8f7e4bd30be4065b596",
+            "path": "mods/MTS Official Pack-1.20.1-V28.2.jar"
+          }
+        },
+        {
+          "id": "gtcraft-2.0.1(1.20.1).jar",
+          "name": "gtcraft-2.0.1(1.20.1).jar",
+          "type": "File",
+          "artifact": {
+            "size": 19818838,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/mods/gtcraft-2.0.1(1.20.1).jar",
+            "MD5": "4afb86d25352e6edbe994f18ccd92bec",
+            "path": "mods/gtcraft-2.0.1(1.20.1).jar"
           }
         }
       ]
