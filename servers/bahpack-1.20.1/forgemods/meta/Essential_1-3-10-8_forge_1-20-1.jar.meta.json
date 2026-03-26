@@ -1,11 +1,10 @@
 {
-  "id": "local:essential_1-3-10-8_forge_1-20-1:1.0@jar",
+  "id": "essential_1-3-10-8_forge_1-20-1:1.0@jar",
   "name": "Essential_1-3-10-8_forge_1-20-1.jar",
   "type": "ForgeMod",
   "artifact": {
     "size": 51132085,
     "MD5": "67fdc683e130f9a7fa26fce55678a26f",
-    "url": "https://github.com/PuliNFPS/bahcraftpack2/releases/download/mods-pesados/Essential_1-3-10-8_forge_1-20-1.jar",
-    "path": "forgemods/required/Essential_1-3-10-8_forge_1-20-1.jar"
+    "url": "https://github.com/PuliNFPS/bahcraftpack2/releases/download/mods-pesados/Essential_1-3-10-8_forge_1-20-1.jar"
   }
 }
