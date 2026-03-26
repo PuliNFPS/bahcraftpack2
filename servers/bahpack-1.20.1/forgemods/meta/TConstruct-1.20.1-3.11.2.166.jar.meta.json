@@ -1,10 +1,11 @@
 {
-  "id": "local:tconstruct-1_20_1-3_11_2_166:1.0@jar",
+  "id": "local:tconstruct:1.20.1-3.11.2.166@jar",
   "name": "TConstruct-1.20.1-3.11.2.166.jar",
   "type": "ForgeMod",
   "artifact": {
     "size": 21572031,
     "MD5": "812aad66dfecc0832ea4569cd3b1de5a",
-    "url": "https://github.com/PuliNFPS/bahcraftpack2/releases/download/mods-pesados/TConstruct-1.20.1-3.11.2.166.jar",
-  }
+    "url": "https://github.com/PuliNFPS/bahcraftpack2/releases/download/mods-pesados/TConstruct-1.20.1-3.11.2.166.jar"
+  },
+  "subModules": []
 }
