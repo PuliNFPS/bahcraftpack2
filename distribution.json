@@ -4163,35 +4163,7 @@
             "MD5": "c6bd364a6d658459a7c49f37342476bd",
             "path": "config/worldeditcui.config.json"
           }
-        },
-        {
-          "id": "l_enders:cataclysm:3.16@jar",
-          "name": "L_Enders_Cataclysm-3.16.jar",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 127993805,
-            "MD5": "de747fb259b761f7b872654516fa27b3",
-            "url": "https://www.dropbox.com/scl/fi/roxdpwzxq3ivx97pt848u/L_Enders_Cataclysm-3.16.jar?rlkey=cjh94ompwcx69dznh6wjk5r9z&st=d18rmuse&dl=1"
-          }
-        },
-        {
-          "id": "TConstruct-1.20.1-3.11.2.166@jar",
-          "name": "TConstruct-1.20.1-3.11.2.166.jar",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 21572031,
-            "MD5": "812aad66dfecc0832ea4569cd3b1de5a",
-            "url": "https://github.com/PuliNFPS/bahcraftpack2/releases/download/mods-pesados/TConstruct-1.20.1-3.11.2.166.jar",
-            "path": "forgemods/required/TConstruct-1.20.1-3.11.2.166.jar"
-          }
+        }
         }
       ]
     }
