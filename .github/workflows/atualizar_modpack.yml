@@ -4,7 +4,8 @@ on:
   push:
     paths:
       - 'servers/bahpack-1.20.1/forgemods/required/**.jar'
-
+      - 'servers/bahpack-1.20.1/forgemods/meta/**.meta.json'
+      
 jobs:
   construir-json:
     runs-on: ubuntu-latest
