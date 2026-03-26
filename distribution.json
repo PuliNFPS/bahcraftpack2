@@ -803,6 +803,16 @@
           }
         },
         {
+          "id": "slimeknights.mantle:mantle:1.11.104@jar",
+          "name": "Mantle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1625005,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/Mantle-1.20.1-1.11.104.jar",
+            "MD5": "7d5d50ac6c3d8791e494dc5173297d02"
+          }
+        },
+        {
           "id": "mikumiku.youcancallme:miku:1.0.0@jar",
           "name": "Miku",
           "type": "ForgeMod",
