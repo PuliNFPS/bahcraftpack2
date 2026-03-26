@@ -693,16 +693,6 @@
           }
         },
         {
-          "id": "gtcraft:gtcraft:2.0.1@jar",
-          "name": "GT CRAFT",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 19818838,
-            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/gtcraft-2.0.1(1.20.1).jar",
-            "MD5": "4afb86d25352e6edbe994f18ccd92bec"
-          }
-        },
-        {
           "id": "com.github.alexthe666:iceandfire:2.1.13-1.20.1@jar",
           "name": "Ice and Fire",
           "type": "ForgeMod",
@@ -840,16 +830,6 @@
             "size": 235815,
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/moresswords-1.1.0-forge-1.20.1.jar",
             "MD5": "ae19fe650246d6bb9e96e13e72c6f033"
-          }
-        },
-        {
-          "id": "mtsofficialpack:mtsofficialpack:28@jar",
-          "name": "Immersive Vehicles (MTS/IV) - Official Content Pack",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 89590985,
-            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/MTS%20Official%20Pack-1.20.1-V28.2.jar",
-            "MD5": "5e6b81c240b4f8f7e4bd30be4065b596"
           }
         },
         {
