@@ -983,16 +983,6 @@
           }
         },
         {
-          "id": "com.corosus.watut.loader:watut:1.20.1-1.2.3@jar",
-          "name": "What Are They Up To",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 435496,
-            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/forgemods/required/watut-forge-1.20.1-1.2.3.jar",
-            "MD5": "345d3ecdf94dffaa0e3ba55538c65f80"
-          }
-        },
-        {
           "id": "nonamecrackers2.witherstormmod:witherstormmod:4.2.1@jar",
           "name": "Cracker's Wither Storm Mod",
           "type": "ForgeMod",
@@ -4184,6 +4174,17 @@
             "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/config/worldeditcui.config.json",
             "MD5": "c6bd364a6d658459a7c49f37342476bd",
             "path": "config/worldeditcui.config.json"
+          }
+        },
+        {
+          "id": "Essential_1-3-10-8_forge_1-20-1.jar",
+          "name": "Essential_1-3-10-8_forge_1-20-1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 51132085,
+            "url": "https://raw.githubusercontent.com/PuliNFPS/bahcraftpack2/main/servers/bahpack-1.20.1/files/mods/Essential_1-3-10-8_forge_1-20-1.jar",
+            "MD5": "67fdc683e130f9a7fa26fce55678a26f",
+            "path": "mods/Essential_1-3-10-8_forge_1-20-1.jar"
           }
         },
         {
