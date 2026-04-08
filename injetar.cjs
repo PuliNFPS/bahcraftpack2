@@ -58,12 +58,15 @@ for (const file of metaFiles) {
     const modulo = {
       id:       meta.id,
       name:     meta.name,
-      type:     meta.type || 'ForgeMod',
+      type:     'File',
       required: {
         value: true,
         def:   true
       },
-      artifact: meta.artifact
+      artifact: {
+        ...meta.artifact,
+        path: 'mods/' + meta.name
+      }
     };
 
     // Se houver subModules, incluir também
@@ -128,43 +131,42 @@ if (modsNovos.length === 0) {
   process.exit(0);
 }
 
-// ── Encontrar a posição: logo após o ÚLTIMO ForgeMod ────────
+// ── Encontrar a posição: logo após o ÚLTIMO File ────────────
 //
 //    modules: [
-//      { type: "Forge", ... },        ← index 0
-//      { type: "ForgeMod", ... },      ← index 1
-//      { type: "ForgeMod", ... },      ← index 2  ← último ForgeMod
-//      { type: "File", ... },          ← index 3  ← próximo tipo
+//      { type: "Forge", ... },   ← index 0  (loader)
+//      { type: "File", ... },    ← index 1
+//      { type: "File", ... },    ← index 2  ← último File
 //      ...
 //    ]
 //
-//    Queremos inserir na posição 3 (entre o último ForgeMod e o File).
+//    Queremos inserir na posição 3 (após o último File).
 
 let posicaoDeInsercao = -1;
 
 for (let i = servidor.modules.length - 1; i >= 0; i--) {
-  if (servidor.modules[i].type === 'ForgeMod') {
-    posicaoDeInsercao = i + 1;  // logo depois do último ForgeMod
-    break;
+  if (servidor.modules[i].type === 'File') {
+    posicaoDeInsercao = i + 1  // logo depois do último File
+    break
   }
 }
 
-// Se não encontrou nenhum ForgeMod, procura depois do Forge (loader)
+// Se não encontrou nenhum File, procura depois do Forge (loader)
 if (posicaoDeInsercao === -1) {
   for (let i = servidor.modules.length - 1; i >= 0; i--) {
     if (servidor.modules[i].type === 'Forge') {
-      posicaoDeInsercao = i + 1;
-      break;
+      posicaoDeInsercao = i + 1
+      break
     }
   }
 }
 
 // Se ainda não encontrou, coloca no final mesmo
 if (posicaoDeInsercao === -1) {
-  posicaoDeInsercao = servidor.modules.length;
+  posicaoDeInsercao = servidor.modules.length
 }
 
-console.log(`\n📍 Posição de inserção: índice ${posicaoDeInsercao} (após o último ForgeMod)`);
+console.log(`\n📍 Posição de inserção: índice ${posicaoDeInsercao} (após o último File)`);
 
 // Inserir todos os mods novos na posição correta
 servidor.modules.splice(posicaoDeInsercao, 0, ...modsNovos);
